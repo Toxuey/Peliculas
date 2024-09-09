@@ -22,5 +22,11 @@
     "autor": "Frank Herbert",
     "imagen": "imagenes/dune2.jpg",
     "url": "libros/dune2.html"
+  },  
+  {
+    "titulo": "Hijos de dune",
+    "autor": "Frank Herbert",
+    "imagen": "imagenes/dune3.jpg",
+    "url": "libros/dune3.html"
   }
 ]
