@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libros Disponibles</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Libros Disponibles</h1>
+    <div id="libros-container" class="libros-grid"></div>
+
+    <script>
+        // Cargar datos desde el archivo JSON
+        fetch('libros.json')
+            .then(response => response.json())
+            .then(data => {
+                const librosContainer = document.getElementById('libros-container');
+                data.forEach(libro => {
+                    const bookDiv = document.createElement('div');
+                    bookDiv.classList.add('libro');
+                    bookDiv.innerHTML = `
+                        <a href="${libro.url}">
+                            <img src="${libro.imagen}" alt="${libro.titulo}" />
+                            <h3>${libro.titulo}</h3>
+                            <p>${libro.autor}</p>
+                        </a>
+                    `;
+                    librosContainer.appendChild(bookDiv);
+                });
+            })
+            .catch(error => console.error('Error al cargar los libros:', error));
+    </script>
+</body>
+</html>
