@@ -10,5 +10,11 @@
     "autor": "Miguel de Cervantes",
     "imagen": "imagenes/quijote.jpg",
     "url": "libros/quijote.html"
+  },
+  {
+    "titulo": "Dune",
+    "autor": "Frank Herbert",
+    "imagen": "imagenes/dune.jpg",
+    "url": "libros/dune.html"
   }
 ]
