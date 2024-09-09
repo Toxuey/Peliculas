@@ -1,0 +1,14 @@
+[
+  {
+    "titulo": "Cien Años de Soledad",
+    "autor": "Gabriel García Márquez",
+    "imagen": "imagenes/cien_anos.jpg",
+    "url": "libros/cien_anos.html"
+  },
+  {
+    "titulo": "El Quijote",
+    "autor": "Miguel de Cervantes",
+    "imagen": "imagenes/quijote.jpg",
+    "url": "libros/quijote.html"
+  }
+]
