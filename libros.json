@@ -16,5 +16,11 @@
     "autor": "Frank Herbert",
     "imagen": "imagenes/dune.jpg",
     "url": "libros/dune.html"
+  },
+  {
+    "titulo": "El mesias de Dune",
+    "autor": "Frank Herbert",
+    "imagen": "imagenes/dune2.jpg",
+    "url": "libros/dune.html"
   }
 ]
